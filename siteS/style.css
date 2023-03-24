@@ -1,0 +1,25 @@
+body{
+    background-color:blanchedalmond;
+}
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+      color:blueviolet
+}
+p{
+    text-align: center;
+    color:royalblue
+
+}
+img {
+    animation: spin 2s linear infinite;
+  }
+  
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
