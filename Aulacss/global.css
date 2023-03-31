@@ -1,0 +1,49 @@
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:blueviolet
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    color:pink
+}
+.coluna{
+    color:brown
+}
+.prim-paragrafo-azul{
+    color: violet;
+
+}
+#p-1{
+    font-family: 'Bebas Neue', cursive;
+    color:red;
+    font-size: 28px;
+}
+.p-azul{
+    color:blue;
+    font-size: 12px;
+    
+}
+.h2-azul-escuro{
+    color:royalblue;
+    font-size: 14px;
+}
+.vermelho{
+    color: red;
+}
+.cinza{
+    color: gray;
+}
+.verde{
+    color: green;
+}
+.roxo{
+    color: purple;
+}
+.azul{
+    color: aqua;
+    font-weight: 900;
+}
+.preto{
+    color: black;
+    font-weight: 900;
+}
