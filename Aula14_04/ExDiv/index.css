@@ -1,0 +1,19 @@
+body>div{
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+
+    width: 50vw;
+    float: 50vw;
+}
+body>div>div{
+    background-color: lightgreen;
+    width: 50%;
+    height: 50%;
+    overflow: hidden;
+
+    position: relative;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
