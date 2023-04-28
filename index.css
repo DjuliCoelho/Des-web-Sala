@@ -1,0 +1,78 @@
+div{
+    width: 80vw;
+    height: 80vh;
+    position: relative;
+    top: 10vh;
+    left:10vh;
+    background-color: pink;
+
+}
+p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 60px;
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	width:fit-content;
+}
+
+@media screen and (min-width: 901px) {
+	div {
+		background-color: pink;
+	}
+
+	p#grande {
+		visibility: visible;
+	}
+
+	p#media {
+		visibility: hidden;
+	}
+
+	p#pequena {
+		visibility: hidden;
+	}
+}
+
+@media screen and (max-width: 900px) and (min-width: 600px) {
+	div {
+		background-color: violet;
+	}
+
+	p#grande {
+		visibility: hidden;
+	}
+
+	p#media {
+		visibility: visible;
+	}
+
+	p#pequena {
+		visibility: hidden;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	div {
+		background-color:aquamarine;
+	}
+
+	p#grande {
+		visibility: hidden;
+	}
+
+	p#media {
+		visibility: hidden;
+	}
+
+	p#pequena {
+		visibility: visible;
+	}
+}
+
+@media print {
+	div {
+		background-color: black;
+	}
+}
