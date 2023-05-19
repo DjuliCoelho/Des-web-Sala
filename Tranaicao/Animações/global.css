@@ -1,0 +1,45 @@
+div{
+    width: 200px;
+    position: absolute;
+    left: 100px;
+    top:100px;
+    /*background-image:url("ima/deminha.jpg") ;*/
+    background-size: 200px;
+
+
+
+    animation-name: andar;
+    animation-duration: 5s;
+    animation-delay: 700ms;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction:unset;
+    animation-fill-mode:both;
+}
+
+@keyframes andar{
+    0%{
+        left: -180px;
+        top:0px
+    }
+    20%{
+        left:50vw;
+        top:50vh;
+    }
+
+    49.99%{
+        border:5px solid greenyellow;
+        /*background-image:url("ima/deminha.jpg") ;*/
+    }
+
+    60%{
+        border: 5px solid brown;
+        /*background-image: url("ima/demi-lovato.jpg");*/
+    }
+
+    100%{
+        left:95vw;
+        top:0px;
+    }
+
+}

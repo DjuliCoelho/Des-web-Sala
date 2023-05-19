@@ -1,0 +1,43 @@
+.bola{
+    width: 50px;
+    height: 50px;
+    border: 5px solid salmon;
+    border-radius: 100px;
+
+    animation-name: andar;
+    animation-duration: 5s;
+    animation-delay: 700ms;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.barra{
+    width: 500px;
+    height: 15px; 
+    background-color: burlywood;
+}
+.barra>.bola{
+    width: 5px;
+    height: 15px;
+    background-color: greenyellow;
+
+    animation-name: vaivem;
+    animation-duration: 5s;
+    animation-delay: 700ms;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction:unset;
+    animation-fill-mode:both;
+}
+
+@keyframes vaivem{
+    0%{
+        left: -200%;
+        top:0%;
+    }
+
+    50%{
+        left:95vw;
+        top:0vh;
+    }
+}
